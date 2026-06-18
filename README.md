@@ -1,8 +1,8 @@
 ```
 
 the claude incident of 3.4.3 made me want to see how the rsync algo works and
-if i could reimplement it primary focus is the algorithm but getting it to work
-over networks would be nice
+if i could reimplement it. primary focus is the algorithm but getting it to
+work over networks would be nice
 
 see https://en.wikipedia.org/wiki/Rsync >>>
 
@@ -15,7 +15,7 @@ neither.[7]
 
 <<<
 
-How the algo works, based on the white paper
+General algorithm
 see https://raw.githubusercontent.com/RsyncProject/rsync/refs/heads/v3.4-stable/tech_report.tex >>>
 
 1. β splits the file B into a series of non-overlapping fixed-sized blocks of
